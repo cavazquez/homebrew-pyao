@@ -48,7 +48,7 @@ El servidor necesita un Redis externo configurado por su operador para ejecutar 
 
 ## Windows: WinGet
 
-Los manifiestos propuestos usan `Cavazquez.PyAOServer` y `Cavazquez.PyAOClient`. El estado de aprobación se documenta en los issues de cada proyecto; una propuesta pendiente todavía no está disponible en el catálogo público de WinGet.
+Propuestas en revisión: [Cavazquez.PyAOServer](https://github.com/microsoft/winget-pkgs/pull/458433) y [Cavazquez.PyAOClient](https://github.com/microsoft/winget-pkgs/pull/458434). Todavía no están disponibles en el catálogo público de WinGet.
 
 ## Integridad y promoción
 
@@ -57,3 +57,5 @@ Las recetas y los paquetes provienen de los mismos commits y archivos aprobados 
 También se conserva el repositorio APT firmado completo de esta versión bajo `https://github.com/cavazquez/homebrew-pyao/releases/download/v1.0.0rc5/`. Esa URL puede reemplazar `apt-edge/` en la fuente APT para fijar la candidata; `apt-edge/` sigue el canal de pruebas. Los índices firmados y paquetes de la versión quedan disponibles aunque cambie el canal.
 
 Proyectos: [servidor](https://github.com/cavazquez/pyao-server) y [cliente](https://github.com/cavazquez/ArgentumOnlineGodot). Microsoft Store y las botas visibles están aplazadas.
+
+Descargas nativas manuales: [servidor 1.0.0rc5](https://github.com/cavazquez/homebrew-pyao/releases/tag/v1.0.0rc5) y [cliente 1.0.0rc5](https://github.com/cavazquez/ArgentumOnlineGodot/releases/tag/v1.0.0rc5). Los archivos de integridad son los assets `channel-manifest.json` y `SHA256SUMS` adjuntos a la release. Snapshot de los metadatos corregidos: [v1.0.0rc5-metadata.1](https://github.com/cavazquez/homebrew-pyao/tree/v1.0.0rc5-metadata.1).
