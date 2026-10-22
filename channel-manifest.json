@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0rc5",
+  "sources": {
+    "server": "8f5210b43db5c0bf01086bf1ce9d189bae66b613",
+    "client": "6c76a745ec242c8d21a440108cb4b61c40807579"
+  },
+  "repository": "cavazquez/homebrew-pyao",
+  "promoted": false,
+  "artifacts": {
+    "pyao-client_1.0.0~rc5_amd64.deb": "3fccb81ca0c8b30689b197b9f407f4a0f07a3db568e06f02f9319661ec532947",
+    "pyao-client_1.0.0~rc5_arm64.deb": "632c296d4e873902eb3bb176b9c6800dc971dfbaeb40c2f219f1a3a9db56e6ce",
+    "pyao-server-1.0.0rc5-linux-amd64.zip": "a8e40367b68bf2620075ea95830619e0a59f354df9a0d06ae9028fddbeabc17b",
+    "pyao-server-1.0.0rc5-linux-arm64.zip": "842f981b2422e1ee1dd602bb5a6ab1347ebbec71bd71e819c8ec656badfcc788",
+    "pyao-server-1.0.0rc5-macos-amd64.zip": "db2d4c170546bf229c8ce5b3d7d2c3209fb04f8b57b33b1cba05206cb0e0aa98",
+    "pyao-server-1.0.0rc5-macos-arm64.zip": "5a1b4cf3ba0561ef05f8e7d21c12145e591f73e02c42935f71beecdcd4b178b8",
+    "pyao-server-1.0.0rc5-windows-amd64.zip": "ac2661a2c70ebb9e54cda0b39abb2e8e180d232a3537b3077469ffb88d719b9c",
+    "pyao-server_1.0.0~rc5_amd64.deb": "4bb664207e54f92eddc7cabc4a1b81da776814caf4dd670be2ffd66667c4ae2e",
+    "pyao-server_1.0.0~rc5_arm64.deb": "95ac03f83c5007eafec0e1c5315f5476c84222953720e8f94f053e90bd7ba3e4"
+  },
+  "apt_packages": {
+    "pyao-client_1.0.0~rc5_amd64.deb": "3fccb81ca0c8b30689b197b9f407f4a0f07a3db568e06f02f9319661ec532947",
+    "pyao-server_1.0.0~rc5_amd64.deb": "4bb664207e54f92eddc7cabc4a1b81da776814caf4dd670be2ffd66667c4ae2e",
+    "pyao-server_1.0.0~rc5_arm64.deb": "95ac03f83c5007eafec0e1c5315f5476c84222953720e8f94f053e90bd7ba3e4",
+    "pyao-client_1.0.0~rc5_arm64.deb": "632c296d4e873902eb3bb176b9c6800dc971dfbaeb40c2f219f1a3a9db56e6ce"
+  },
+  "client_release_urls": {
+    "linux-amd64": "https://github.com/cavazquez/ArgentumOnlineGodot/releases/download/v1.0.0rc5/pyao-client-1.0.0rc5-linux.zip",
+    "linux-arm64": "https://github.com/cavazquez/ArgentumOnlineGodot/releases/download/v1.0.0rc5/pyao-client-1.0.0rc5-linux-arm64.zip",
+    "windows-amd64": "https://github.com/cavazquez/ArgentumOnlineGodot/releases/download/v1.0.0rc5/pyao-client-1.0.0rc5-windows.zip",
+    "macos-arm64": "https://github.com/cavazquez/ArgentumOnlineGodot/releases/download/v1.0.0rc5/pyao-client-1.0.0rc5-macos-arm64.zip",
+    "macos-amd64": "https://github.com/cavazquez/ArgentumOnlineGodot/releases/download/v1.0.0rc5/pyao-client-1.0.0rc5-macos-x86_64.zip"
+  }
+}
